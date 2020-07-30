@@ -1,0 +1,20 @@
+{
+  "name": "test-tres-en-raya",
+  "version": "1.0.0",
+  "description": "Programación de test en el 3 en raya",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "tests",
+    "tres",
+    "en",
+    "raya"
+  ],
+  "author": "Pablo Suárez-Muñoz",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^8.0.1"
+  }
+}
