@@ -36,8 +36,8 @@ function hayGanador(tablero) {
  * indicada por la fila y columna. Si es así, devuelve true; si no, false.
  * 
  * @param {array} tablero Array de 3x3 números indicando el estado del tablero.
- * @param {*} fila Número de fila (de 0 a 2)
- * @param {*} columna Número de columna (de 0 a 2)
+ * @param {number} fila Número de fila (de 0 a 2)
+ * @param {number} columna Número de columna (de 0 a 2)
  */
 function hayHueco(tablero, fila, columna) {
     return false; //TODO: falta implementar la lógica
