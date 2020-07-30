@@ -28,10 +28,23 @@ function hayGanador(tablero) {
     if(tablero[0][2]!=0 && tablero[0][2]==tablero[1][1] && tablero[0][2]==tablero[2][0])
         return tablero[0][2];
 
-    return 0; //TODO: provisional, revisar este resultado
+    return 0;
+}
+
+/**
+ * Esta función determina si en el tablero hay un hueco en la posición
+ * indicada por la fila y columna. Si es así, devuelve true; si no, false.
+ * 
+ * @param {array} tablero Array de 3x3 números indicando el estado del tablero.
+ * @param {*} fila Número de fila (de 0 a 2)
+ * @param {*} columna Número de columna (de 0 a 2)
+ */
+function hayHueco(tablero, fila, columna) {
+    return false; //TODO: falta implementar la lógica
 }
 
 
 module.exports = {
-    hayGanador
+    hayGanador,
+    hayHueco
 }
